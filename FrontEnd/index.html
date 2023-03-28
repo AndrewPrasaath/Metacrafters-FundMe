@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fund Me Dapp</title>
+        <style>
+            div {
+                margin: auto;
+                width: 30%;
+                background: lightcyan;
+                border: 3px solid green;
+                padding: 10px;
+            }
+            button {
+                margin: 5px auto;
+                position: relative;
+                padding: 5px;
+                background: darkblue;
+                color: whitesmoke;
+                border: 1px dashed lightgreen;
+                font-family: "Courier New", Courier, monospace;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 style="text-align: center">Andrew's Fund Me Dapp</h1>
+            <button id="connectButton">Connect</button><br />
+            <button id="balanceButton">getBalance</button>
+            <button id="withdrawButton">Withdraw</button>
+            <br />
+            <!--Form-->
+            <label for="fund">ETH Amount</label>
+            <input id="ethAmount" placeholder="0.1" />
+            <button id="fundButton">Fund</button>
+            <!--Form-->
+        </div>
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>
