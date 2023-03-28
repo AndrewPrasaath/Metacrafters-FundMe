@@ -1,13 +1,17 @@
-# Sample Hardhat Project
+# Metacrafters Intermediate EVM course challenge 2
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic funding smart contract with front end integration using raw HTML & JavaScript. It comes with a contract, front end integration, and a script that deploys that contract.
 
-Try running some of the following tasks:
+Do the following:
 
+clone the repo and run
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+yarn (or) npm i
+yarn hardhat node
 ```
+In a new terminal,
+```shell
+yarn hardhat run scripts/deploy.js
+```
+Then copy the contract address and paste it in constants.js file in FrontEnd folder.
+Now run the front end and interact with the smart contract.
